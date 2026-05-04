@@ -1,0 +1,60 @@
+Compiler Construction Project
+Spring 2026
+
+NOTE: The main implementation and the presentations are due by May 5, 2026 Midnight.
+
+Objective
+Design and implement a compiler (or major components of a compiler) for a well-defined subset of the C programming language. The goal is to understand the core phases of compilation including lexical analysis, parsing, semantic analysis, and code generation.
+
+Project Scope
+You are required to implement a compiler for a selected subset of C. The focus is on correctness, modular design, and clear understanding of compiler phases.
+
+Defined Subset of C
+- Variables and expressions (arithmetic, relational, logical)
+- Control structures: if, while, for (optional)
+- Functions (including main and user-defined functions)
+- Symbol table with scope management (global and local)
+
+Required Components
+- Lexical Analyzer (tokenization)
+- Syntax Analyzer (parser based on defined grammar)
+- Semantic Analysis (type checking, scope handling)
+- Intermediate Representation (e.g., Three Address Code)
+
+Optional Features (Carries 2 Innovation Marks out of 10 for the Project)
+- Array support
+- Code optimization techniques (constant folding, dead code elimination, etc.)
+- Target code generation (Can use the tool LLVM for optimization and target code generation)
+- Writing source code in a language other than C.
+
+Deliverables (1 and 2 are assessed collectively for the group, 3 and 4 are assessed individually)
+
+1. Project Report (30%)
+   - Introduction and objectives
+   - Clearly defined subset of C
+   - Grammar specification
+   - Design of compiler phases
+   - Sample inputs and outputs
+   - Limitations and future work
+
+2. Executable Code (40%)
+   - Working implementation
+   - Clear instructions to compile and run
+   - Well-structured and readable code
+   - Test cases
+
+3. Presentation (20%)
+   - Project overview
+   - Design explanation
+   - Live demonstration
+
+4. Demo (10%)
+   - Understanding of implementation
+   - Ability to answer technical questions
+
+Evaluation Criteria
+- Correctness and functionality
+- Design and modularity
+- Completeness of features
+- Documentation quality
+- Clarity of presentation
